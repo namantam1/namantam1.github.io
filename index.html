@@ -22,7 +22,6 @@ https://templatemo.com/tm-531-reflux
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Additional CSS Files -->
-    <!-- <link rel="stylesheet" href="assets/css/fontawesome.css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/templatemo-style.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
@@ -84,10 +83,10 @@ https://templatemo.com/tm-531-reflux
             <h2>About Me</h2>
             <div class="line-dec"></div>
             <span
-              >I am a Full Stack Developer with more than one year of expirience.
-              I have knowledge of Backend developement with Python and JavaScript
-               and Frontend developement with React-Js.
-              I have work experience with tools like Git, Github, Docker and many others.
+              >I am a Full Stack Developer with more than one year of experience.
+              I have knowledge of Backend development with Python and JavaScript
+               and Frontend development with React-JS.
+              I have work experience with tools like Git, GitHub, Docker and many others.
               </span
             >
           </div>
@@ -96,7 +95,7 @@ https://templatemo.com/tm-531-reflux
               <li class="event">
                 <h3>Graduation</h3>
                 <span>07/2019 - Present</span>
-                <p>National Intitute of Technology, Warangal
+                <p>National Institute of Technology, Warangal
                   <a href="https://nitw.ac.in" target="_blank"> <i class="fas fa-external-link-alt"></i></a>
                 </p>
                 <p>B.Tech in Mechanical Engineering</p>
@@ -125,8 +124,8 @@ https://templatemo.com/tm-531-reflux
             <h2>What I’m good at?</h2>
             <div class="line-dec"></div>
             <span
-              >Althoug I am a Full Stack Developer but I am more leaned toward
-              Backend developement as I have more work experience in Backend.
+              >Although I am a Full Stack Developer but I am more leaned toward
+              Backend development as I have more work experience in Backend.
               Below is some of Technology that I am used of.</span
             >
           </div>
@@ -181,15 +180,15 @@ https://templatemo.com/tm-531-reflux
             <h2>My Work Experience</h2>
             <div class="line-dec"></div>
             <span
-              >These are some of my work Expreience.</span>
+              >These are some of my work Experience.</span>
           </div>
           <div id="timeline">
             <ul class="timeline">
               <li class="event">
-                <h3>Backen Developer at MirrorScore</h3>
+                <h3>Backend Developer at MirrorScore</h3>
                 <span>08/2020 - Present</span>
                 <p>Created APIs from scratch using Django rest framework and deployed on AWS EC2 instance. Collaborated with android team to integrate APIs.</p>
-                <p>Implemented Chat with latest technology i.e. websocket and integrated in android.</p>
+                <p>Implemented Chat with latest technology i.e. WebSocket and integrated in android.</p>
                 <p>Implemented push notification and analytics with firebase.</p>
                 <p> Setup CI & CD pipeline with GitHub and docker for version controlling, automatic testing, and deployment on AWS.</p>
                 <p>Optimized APIs using caching, prefetching to scale the application for thousands of users.</p>
@@ -300,55 +299,5 @@ https://templatemo.com/tm-531-reflux
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/lightbox.js"></script>
     <script src="assets/js/custom.js"></script>
-    <script>
-      //according to loftblog tut
-      $(".main-menu li:first").addClass("active");
-
-      var showSection = function showSection(section, isAnimate) {
-        var direction = section.replace(/#/, ""),
-          reqSection = $(".section").filter(
-            '[data-section="' + direction + '"]'
-          ),
-          reqSectionPos = reqSection.offset().top - 0;
-
-        if (isAnimate) {
-          $("body, html").animate(
-            {
-              scrollTop: reqSectionPos
-            },
-            800
-          );
-        } else {
-          $("body, html").scrollTop(reqSectionPos);
-        }
-      };
-
-      var checkSection = function checkSection() {
-        $(".section").each(function() {
-          var $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-          if (topEdge < wScroll && bottomEdge > wScroll) {
-            var currentId = $this.data("section"),
-              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-            reqLink
-              .closest("li")
-              .addClass("active")
-              .siblings()
-              .removeClass("active");
-          }
-        });
-      };
-
-      $(".main-menu").on("click", "a", function(e) {
-        e.preventDefault();
-        showSection($(this).attr("href"), true);
-      });
-
-      $(window).scroll(function() {
-        checkSection();
-      });
-    </script>
   </body>
 </html>
