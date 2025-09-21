@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"264d35529a414dd0","x":-80,"y":-80,"width":300,"height":240,"type":"text","text":"```cpp\nint main() {\n}\n```"}
+	],
+	"edges":[]
+}
