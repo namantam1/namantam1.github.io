@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Binary Search</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/Cheat-Seats/Binary-Search</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/Cheat-Seats/Binary-Search</guid>
+    <description><![CDATA[ Custom &amp; STL (Cheatsheet) Notes (short) Use mid = lo + (hi-lo)/2 to avoid overflow; use +1 in numerator for upper-mid. ]]></description>
+    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Linked List</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Linked-List</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Linked-List</guid>
+    <description><![CDATA[ Custom Implementation struct List{ int val; List *nxt; List *pre; int size; }; Stl implementation #include &lt;algorithm&gt; #include &lt;iostream&gt; #include &lt;list&gt; int main() { // Create a list containing integers std::list&lt;int&gt; l = {7, 5, 16, 8}; // Add an integer to the front of the... ]]></description>
+    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Segment Tree</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Segment-Tree</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Segment-Tree</guid>
+    <description><![CDATA[ Segment Tree — Cheatsheet (C++) Quick facts Purpose: fast range queries and updates over an array (sum/min/max/count, etc.). ]]></description>
+    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>CPP cheatsheet</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/Cheat-Seats/CPP-cheatsheet</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/Cheat-Seats/CPP-cheatsheet</guid>
+    <description><![CDATA[ 1. ]]></description>
+    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
+  </item><item>
+    <title>Circular array</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/Cheat-Seats/Circular-array</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/Cheat-Seats/Circular-array</guid>
+    <description><![CDATA[ To find the min diff in a circular array diff = min(n - |a - b|, |a - b|) Note The array should be sorted. ]]></description>
+    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
+  </item><item>
+    <title>BitSet</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/BitSet</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/BitSet</guid>
+    <description><![CDATA[ #include &lt;iostream&gt; #include &lt;bitset&gt; #include &lt;string&gt; int main() { // Create a bitset of size 8 std::bitset&lt;8&gt; b1; // All bits initialized to 0 (00000000) std::cout &lt;&lt; &quot;b1: &quot; &lt;&lt; b1 &lt;&lt; std::endl; // Initialize with an integer value std::bitset&lt;... ]]></description>
+    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
+  </item><item>
+    <title>Trie</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Trie</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Trie</guid>
+    <description><![CDATA[ Simplest struct Trie { struct Node { array&lt;int,26&gt; nxt; bool end=false; Node(){ nxt.fill(-1); } }; vector&lt;Node&gt; t; Trie(){ t.emplace_back(); } void insert(const string&amp; s){ int v=0; for(char ch: s){ int c = ch-&#039;a&#039;; if(t[v].nxt[c]==-1){ t[v].nxt[c]=t.size(); t.emplace_back()... ]]></description>
+    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
+  </item><item>
+    <title>Pro tips</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/Pro-tips</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/Pro-tips</guid>
+    <description><![CDATA[  Check if we can use buck sort to optimize our solution and get constant time complexity. ]]></description>
+    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
+  </item><item>
+    <title>DSA Patterns &amp; Data Structures — Cheat Sheet</title>
+    <link>https://quartz.jzhao.xyz/DSA-Patterns--and--Data-Structures-%E2%80%94-Cheat-Sheet</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Patterns--and--Data-Structures-%E2%80%94-Cheat-Sheet</guid>
+    <description><![CDATA[ Patterns 1) Two Pointers (sorted arrays / pair/triplet sums) When: sorted array / need pair/triplet with condition (sum, difference, etc.). ]]></description>
+    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
+  </item><item>
+    <title>DSA_Templates_Obsidian</title>
+    <link>https://quartz.jzhao.xyz/DSA_Templates_Obsidian</link>
+    <guid>https://quartz.jzhao.xyz/DSA_Templates_Obsidian</guid>
+    <description><![CDATA[ C++ DSA Templates — Interview-ready (Obsidian note) Purpose: A compact set of C++ templates for common interview/competitive programming patterns and data structures. ]]></description>
+    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
