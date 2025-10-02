@@ -7,10 +7,34 @@
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Guitar chrods</title>
-    <link>https://quartz.jzhao.xyz/Private/Guitar-chrods</link>
-    <guid>https://quartz.jzhao.xyz/Private/Guitar-chrods</guid>
+    <link>https://quartz.jzhao.xyz/Private/Music/Guitar-chrods</link>
+    <guid>https://quartz.jzhao.xyz/Private/Music/Guitar-chrods</guid>
     <description><![CDATA[ Am Em E G D F C Strums DUU DUU DDU DD UU DDD U. ]]></description>
-    <pubDate>Thu, 02 Oct 2025 11:53:01 GMT</pubDate>
+    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
+  </item><item>
+    <title>Kasoor</title>
+    <link>https://quartz.jzhao.xyz/Private/Ukelele/Kasoor</link>
+    <guid>https://quartz.jzhao.xyz/Private/Ukelele/Kasoor</guid>
+    <description><![CDATA[ [C] Haan, mai gumsum [F] hoon. ]]></description>
+    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
+  </item><item>
+    <title>Kho gaye</title>
+    <link>https://quartz.jzhao.xyz/Private/Ukelele/Kho-gaye</link>
+    <guid>https://quartz.jzhao.xyz/Private/Ukelele/Kho-gaye</guid>
+    <description><![CDATA[ [C] Rooh se behti hui [F] dhun ye ishaare de [C] Kuch mere raaz, [F] tere raaz aawara se [F] Kho gaye hum [G] kahan [F] Rangon sa yeh [G] jahaan [F] Kho gaye hum [G] kahan [F] Rangon sa yeh [G] jahaan [C] Tedhe-medhe raaste hai, [Am] jaadui imaaratein hai [F] Main bhi hoon, tu bhi hai [G] yaha,n [C]... ]]></description>
+    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
+  </item><item>
+    <title>Saansein</title>
+    <link>https://quartz.jzhao.xyz/Private/Ukelele/Saansein</link>
+    <guid>https://quartz.jzhao.xyz/Private/Ukelele/Saansein</guid>
+    <description><![CDATA[ [C] Saansein [G] meri ab [F] befikar hain [C] Dil mein bas[G]e kaise yeh [F] pal hain [G] Baatein [F] sambhal jaa [C] rahi hain [G]Palkon mein [F] yoon hi [C]hansi hai [C] Man mein [G] chhupi kaisi yeh [F] dhun hai [C] Har khaahishein uljhi [G] kidhar [F] hain [G] Pairon se [F] zakhmi ja[C]meen hai ... ]]></description>
+    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
+  </item><item>
+    <title>Untitled 1</title>
+    <link>https://quartz.jzhao.xyz/Private/Ukelele/Untitled-1</link>
+    <guid>https://quartz.jzhao.xyz/Private/Ukelele/Untitled-1</guid>
+    <description><![CDATA[ [E] - happy [Em] - Sad A Am G C D . ]]></description>
+    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
   </item><item>
     <title>Queue - CPP</title>
     <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Queue---CPP</link>
@@ -41,30 +65,6 @@
     <guid>https://quartz.jzhao.xyz/DSA-Notes/Cheat-Seats/Binary-Search</guid>
     <description><![CDATA[ Custom &amp; STL (Cheatsheet) Notes (short) Use mid = lo + (hi-lo)/2 to avoid overflow; use +1 in numerator for upper-mid. ]]></description>
     <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Linked List</title>
-    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Linked-List</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Linked-List</guid>
-    <description><![CDATA[ Custom Implementation struct List{ int val; List *nxt; List *pre; int size; }; Stl implementation #include &lt;algorithm&gt; #include &lt;iostream&gt; #include &lt;list&gt; int main() { // Create a list containing integers std::list&lt;int&gt; l = {7, 5, 16, 8}; // Add an integer to the front of the... ]]></description>
-    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Segment Tree</title>
-    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Segment-Tree</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Segment-Tree</guid>
-    <description><![CDATA[ Segment Tree — Cheatsheet (C++) Quick facts Purpose: fast range queries and updates over an array (sum/min/max/count, etc.). ]]></description>
-    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Tree</title>
-    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Tree</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Tree</guid>
-    <description><![CDATA[ Traversals 1. ]]></description>
-    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Trie</title>
-    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Trie</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Trie</guid>
-    <description><![CDATA[ Simplest struct Trie { struct Node { array&lt;int,26&gt; nxt; bool end=false; Node(){ nxt.fill(-1); } }; vector&lt;Node&gt; t; Trie(){ t.emplace_back(); } void insert(const string&amp; s){ int v=0; for(char ch: s){ int c = ch-&#039;a&#039;; if(t[v].nxt[c]==-1){ t[v].nxt[c]=t.size(); t.emplace_back()... ]]></description>
-    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
   </item>
     </channel>
   </rss>
