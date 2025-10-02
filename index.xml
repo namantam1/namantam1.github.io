@@ -6,36 +6,6 @@
       <description>Last 10 notes on Naman&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Guitar chrods</title>
-    <link>https://namantam1.github.io/Private/Music/Guitar-chrods</link>
-    <guid>https://namantam1.github.io/Private/Music/Guitar-chrods</guid>
-    <description><![CDATA[ [Em] - Sad [E] - happy G c Am A D F. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Kasoor</title>
-    <link>https://namantam1.github.io/Private/Music/Kasoor</link>
-    <guid>https://namantam1.github.io/Private/Music/Kasoor</guid>
-    <description><![CDATA[ [C] Haan, mai gumsum [F] hoon. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Kho gaye</title>
-    <link>https://namantam1.github.io/Private/Music/Kho-gaye</link>
-    <guid>https://namantam1.github.io/Private/Music/Kho-gaye</guid>
-    <description><![CDATA[ [C] Rooh se behti hui [F] dhun ye ishaare de [C] Kuch mere raaz, [F] tere raaz aawara se [F] Kho gaye hum [G] kahan [F] Rangon sa yeh [G] jahaan [F] Kho gaye hum [G] kahan [F] Rangon sa yeh [G] jahaan [C] Tedhe-medhe raaste hai, [Am] jaadui imaaratein hai [F] Main bhi hoon, tu bhi hai [G] yaha,n [C]... ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Saansein</title>
-    <link>https://namantam1.github.io/Private/Music/Saansein</link>
-    <guid>https://namantam1.github.io/Private/Music/Saansein</guid>
-    <description><![CDATA[ [C] Saansein [G] meri ab [F] befikar hain [C] Dil mein bas[G]e kaise yeh [F] pal hain [G] Baatein [F] sambhal jaa [C] rahi hain [G]Palkon mein [F] yoon hi [C]hansi hai [C] Man mein [G] chhupi kaisi yeh [F] dhun hai [C] Har khaahishein uljhi [G] kidhar [F] hain [G] Pairon se [F] zakhmi ja[C]meen hai ... ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Strumming Practice</title>
-    <link>https://namantam1.github.io/Private/Music/Strumming-Practice</link>
-    <guid>https://namantam1.github.io/Private/Music/Strumming-Practice</guid>
-    <description><![CDATA[ Pattern 1 Strumming: D U D U Metronome: 55 BPM Pattern 2 Strumming: D U M U Metronome: 55 BPM Other DUU DUU DDU DD UU DDD U. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
-  </item><item>
     <title>index</title>
     <link>https://namantam1.github.io/</link>
     <guid>https://namantam1.github.io/</guid>
@@ -65,6 +35,36 @@
     <guid>https://namantam1.github.io/DSA-Notes/Recursive-To-Iterative</guid>
     <description><![CDATA[ To think from a recursive traversal to an iterative one, you must understand that the recursion&#039;s implicit call stack is managed by the system, whereas an iterative approach requires an explicit data structure, typically a stack, to mimic this behavior. ]]></description>
     <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Drawing 2025-09-21 19.46.46.excalidraw</title>
+    <link>https://namantam1.github.io/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</link>
+    <guid>https://namantam1.github.io/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</guid>
+    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
+    <pubDate>Sun, 21 Sep 2025 20:38:52 GMT</pubDate>
+  </item><item>
+    <title>Binary Search</title>
+    <link>https://namantam1.github.io/DSA-Notes/Cheat-Seats/Binary-Search</link>
+    <guid>https://namantam1.github.io/DSA-Notes/Cheat-Seats/Binary-Search</guid>
+    <description><![CDATA[ Custom &amp; STL (Cheatsheet) Notes (short) Use mid = lo + (hi-lo)/2 to avoid overflow; use +1 in numerator for upper-mid. ]]></description>
+    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Linked List</title>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Linked-List</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Linked-List</guid>
+    <description><![CDATA[ Custom Implementation struct List{ int val; List *nxt; List *pre; int size; }; Stl implementation #include &lt;algorithm&gt; #include &lt;iostream&gt; #include &lt;list&gt; int main() { // Create a list containing integers std::list&lt;int&gt; l = {7, 5, 16, 8}; // Add an integer to the front of the... ]]></description>
+    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Segment Tree</title>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Segment-Tree</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Segment-Tree</guid>
+    <description><![CDATA[ Segment Tree — Cheatsheet (C++) Quick facts Purpose: fast range queries and updates over an array (sum/min/max/count, etc.). ]]></description>
+    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Tree</title>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Tree</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Tree</guid>
+    <description><![CDATA[ Traversals 1. ]]></description>
+    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
