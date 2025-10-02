@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Quartz 4</title>
-      <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on Quartz 4</description>
+      <title>Naman&#039;s Garden</title>
+      <link>https://namantam1.github.io</link>
+      <description>Last 10 notes on Naman&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
     <title>Guitar chrods</title>
-    <link>https://quartz.jzhao.xyz/Private/Music/Guitar-chrods</link>
-    <guid>https://quartz.jzhao.xyz/Private/Music/Guitar-chrods</guid>
-    <description><![CDATA[ Am Em E G D F C Strums DUU DUU DDU DD UU DDD U. ]]></description>
-    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
+    <link>https://namantam1.github.io/Private/Music/Guitar-chrods</link>
+    <guid>https://namantam1.github.io/Private/Music/Guitar-chrods</guid>
+    <description><![CDATA[ [Em] - Sad [E] - happy G c Am A D F. ]]></description>
+    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Kasoor</title>
-    <link>https://quartz.jzhao.xyz/Private/Ukelele/Kasoor</link>
-    <guid>https://quartz.jzhao.xyz/Private/Ukelele/Kasoor</guid>
+    <link>https://namantam1.github.io/Private/Music/Kasoor</link>
+    <guid>https://namantam1.github.io/Private/Music/Kasoor</guid>
     <description><![CDATA[ [C] Haan, mai gumsum [F] hoon. ]]></description>
-    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
+    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Kho gaye</title>
-    <link>https://quartz.jzhao.xyz/Private/Ukelele/Kho-gaye</link>
-    <guid>https://quartz.jzhao.xyz/Private/Ukelele/Kho-gaye</guid>
+    <link>https://namantam1.github.io/Private/Music/Kho-gaye</link>
+    <guid>https://namantam1.github.io/Private/Music/Kho-gaye</guid>
     <description><![CDATA[ [C] Rooh se behti hui [F] dhun ye ishaare de [C] Kuch mere raaz, [F] tere raaz aawara se [F] Kho gaye hum [G] kahan [F] Rangon sa yeh [G] jahaan [F] Kho gaye hum [G] kahan [F] Rangon sa yeh [G] jahaan [C] Tedhe-medhe raaste hai, [Am] jaadui imaaratein hai [F] Main bhi hoon, tu bhi hai [G] yaha,n [C]... ]]></description>
-    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
+    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Saansein</title>
-    <link>https://quartz.jzhao.xyz/Private/Ukelele/Saansein</link>
-    <guid>https://quartz.jzhao.xyz/Private/Ukelele/Saansein</guid>
+    <link>https://namantam1.github.io/Private/Music/Saansein</link>
+    <guid>https://namantam1.github.io/Private/Music/Saansein</guid>
     <description><![CDATA[ [C] Saansein [G] meri ab [F] befikar hain [C] Dil mein bas[G]e kaise yeh [F] pal hain [G] Baatein [F] sambhal jaa [C] rahi hain [G]Palkon mein [F] yoon hi [C]hansi hai [C] Man mein [G] chhupi kaisi yeh [F] dhun hai [C] Har khaahishein uljhi [G] kidhar [F] hain [G] Pairon se [F] zakhmi ja[C]meen hai ... ]]></description>
-    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
+    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
   </item><item>
-    <title>Untitled 1</title>
-    <link>https://quartz.jzhao.xyz/Private/Ukelele/Untitled-1</link>
-    <guid>https://quartz.jzhao.xyz/Private/Ukelele/Untitled-1</guid>
-    <description><![CDATA[ [E] - happy [Em] - Sad A Am G C D . ]]></description>
-    <pubDate>Thu, 02 Oct 2025 12:10:04 GMT</pubDate>
+    <title>Strumming Practice</title>
+    <link>https://namantam1.github.io/Private/Music/Strumming-Practice</link>
+    <guid>https://namantam1.github.io/Private/Music/Strumming-Practice</guid>
+    <description><![CDATA[ Pattern 1 Strumming: D U D U Metronome: 55 BPM Pattern 2 Strumming: D U M U Metronome: 55 BPM Other DUU DUU DDU DD UU DDD U. ]]></description>
+    <pubDate>Fri, 03 Oct 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Index</title>
+    <link>https://namantam1.github.io/Index</link>
+    <guid>https://namantam1.github.io/Index</guid>
+    <description><![CDATA[ Hi 👋, Welcome to Naman’s Garden 😊. ]]></description>
+    <pubDate>Thu, 02 Oct 2025 22:27:17 GMT</pubDate>
   </item><item>
     <title>Queue - CPP</title>
-    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Queue---CPP</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Queue---CPP</guid>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Queue---CPP</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Queue---CPP</guid>
     <description><![CDATA[ #include &lt;iostream&gt; #include &lt;queue&gt; // Required for std::queue int main() { std::queue&lt;int&gt; myQueue; // Declare a queue of integers // Add elements to the queue myQueue.push(10); myQueue.push(20); myQueue.push(30); // Access elements std::cout &lt;&lt; &quot;Front element: &quot; ... ]]></description>
     <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Stack - CPP</title>
-    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Stack---CPP</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Stack---CPP</guid>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Stack---CPP</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Stack---CPP</guid>
     <description><![CDATA[ #include &lt;iostream&gt; #include &lt;stack&gt; // Include the stack header int main() { std::stack&lt;int&gt; numbers; // Create a stack of integers numbers.push(10); // Add 10 to the stack numbers.push(20); // Add 20 to the stack numbers.push(30); // Add 30 to the stack std::cout &lt;&lt; &quot;T... ]]></description>
     <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Recursive To Iterative</title>
-    <link>https://quartz.jzhao.xyz/DSA-Notes/Recursive-To-Iterative</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Notes/Recursive-To-Iterative</guid>
+    <link>https://namantam1.github.io/DSA-Notes/Recursive-To-Iterative</link>
+    <guid>https://namantam1.github.io/DSA-Notes/Recursive-To-Iterative</guid>
     <description><![CDATA[ To think from a recursive traversal to an iterative one, you must understand that the recursion&#039;s implicit call stack is managed by the system, whereas an iterative approach requires an explicit data structure, typically a stack, to mimic this behavior. ]]></description>
     <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
   </item><item>
     <title>Drawing 2025-09-21 19.46.46.excalidraw</title>
-    <link>https://quartz.jzhao.xyz/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</link>
-    <guid>https://quartz.jzhao.xyz/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</guid>
+    <link>https://namantam1.github.io/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</link>
+    <guid>https://namantam1.github.io/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</guid>
     <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
     <pubDate>Sun, 21 Sep 2025 20:38:52 GMT</pubDate>
-  </item><item>
-    <title>Binary Search</title>
-    <link>https://quartz.jzhao.xyz/DSA-Notes/Cheat-Seats/Binary-Search</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Notes/Cheat-Seats/Binary-Search</guid>
-    <description><![CDATA[ Custom &amp; STL (Cheatsheet) Notes (short) Use mid = lo + (hi-lo)/2 to avoid overflow; use +1 in numerator for upper-mid. ]]></description>
-    <pubDate>Sun, 21 Sep 2025 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
