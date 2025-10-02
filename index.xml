@@ -12,6 +12,24 @@
     <description><![CDATA[ Am Em E G D F C Strums DUU DUU DDU DD UU DDD U. ]]></description>
     <pubDate>Thu, 02 Oct 2025 11:53:01 GMT</pubDate>
   </item><item>
+    <title>Queue - CPP</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Queue---CPP</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Queue---CPP</guid>
+    <description><![CDATA[ #include &lt;iostream&gt; #include &lt;queue&gt; // Required for std::queue int main() { std::queue&lt;int&gt; myQueue; // Declare a queue of integers // Add elements to the queue myQueue.push(10); myQueue.push(20); myQueue.push(30); // Access elements std::cout &lt;&lt; &quot;Front element: &quot; ... ]]></description>
+    <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Stack - CPP</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Stack---CPP</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Stack---CPP</guid>
+    <description><![CDATA[ #include &lt;iostream&gt; #include &lt;stack&gt; // Include the stack header int main() { std::stack&lt;int&gt; numbers; // Create a stack of integers numbers.push(10); // Add 10 to the stack numbers.push(20); // Add 20 to the stack numbers.push(30); // Add 30 to the stack std::cout &lt;&lt; &quot;T... ]]></description>
+    <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Recursive To Iterative</title>
+    <link>https://quartz.jzhao.xyz/DSA-Notes/Recursive-To-Iterative</link>
+    <guid>https://quartz.jzhao.xyz/DSA-Notes/Recursive-To-Iterative</guid>
+    <description><![CDATA[ To think from a recursive traversal to an iterative one, you must understand that the recursion&#039;s implicit call stack is managed by the system, whereas an iterative approach requires an explicit data structure, typically a stack, to mimic this behavior. ]]></description>
+    <pubDate>Sat, 27 Sep 2025 00:00:00 GMT</pubDate>
+  </item><item>
     <title>Drawing 2025-09-21 19.46.46.excalidraw</title>
     <link>https://quartz.jzhao.xyz/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</link>
     <guid>https://quartz.jzhao.xyz/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</guid>
@@ -46,24 +64,6 @@
     <link>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Trie</link>
     <guid>https://quartz.jzhao.xyz/DSA-Notes/DataStructures/Trie</guid>
     <description><![CDATA[ Simplest struct Trie { struct Node { array&lt;int,26&gt; nxt; bool end=false; Node(){ nxt.fill(-1); } }; vector&lt;Node&gt; t; Trie(){ t.emplace_back(); } void insert(const string&amp; s){ int v=0; for(char ch: s){ int c = ch-&#039;a&#039;; if(t[v].nxt[c]==-1){ t[v].nxt[c]=t.size(); t.emplace_back()... ]]></description>
-    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
-  </item><item>
-    <title>Pro tips</title>
-    <link>https://quartz.jzhao.xyz/DSA-Notes/Pro-tips</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Notes/Pro-tips</guid>
-    <description><![CDATA[  Check if we can use buck sort to optimize our solution and get constant time complexity. ]]></description>
-    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
-  </item><item>
-    <title>DSA Patterns &amp; Data Structures — Cheat Sheet</title>
-    <link>https://quartz.jzhao.xyz/DSA-Patterns--and--Data-Structures-%E2%80%94-Cheat-Sheet</link>
-    <guid>https://quartz.jzhao.xyz/DSA-Patterns--and--Data-Structures-%E2%80%94-Cheat-Sheet</guid>
-    <description><![CDATA[ Patterns 1) Two Pointers (sorted arrays / pair/triplet sums) When: sorted array / need pair/triplet with condition (sum, difference, etc.). ]]></description>
-    <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
-  </item><item>
-    <title>DSA_Templates_Obsidian</title>
-    <link>https://quartz.jzhao.xyz/DSA_Templates_Obsidian</link>
-    <guid>https://quartz.jzhao.xyz/DSA_Templates_Obsidian</guid>
-    <description><![CDATA[ C++ DSA Templates — Interview-ready (Obsidian note) Purpose: A compact set of C++ templates for common interview/competitive programming patterns and data structures. ]]></description>
     <pubDate>Sat, 20 Sep 2025 23:25:25 GMT</pubDate>
   </item>
     </channel>
