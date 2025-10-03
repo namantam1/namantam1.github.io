@@ -6,65 +6,65 @@
       <description>Last 10 notes on Naman&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Naman&#039;a Garden</title>
-    <link>https://namantam1.github.io/</link>
-    <guid>https://namantam1.github.io/</guid>
-    <description><![CDATA[ Hi 👋, Welcome to Naman’s Garden 😊. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
+    <title>CPP cheatsheet</title>
+    <link>https://namantam1.github.io/DSA-Notes/Cheat-Seats/CPP-cheatsheet</link>
+    <guid>https://namantam1.github.io/DSA-Notes/Cheat-Seats/CPP-cheatsheet</guid>
+    <description><![CDATA[ 1. ]]></description>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
   </item><item>
-    <title>Naman&#039;a Garden</title>
-    <link>https://namantam1.github.io/Index</link>
-    <guid>https://namantam1.github.io/Index</guid>
-    <description><![CDATA[ Hi 👋, Welcome to Naman’s Garden 😊. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
+    <title>Circular array</title>
+    <link>https://namantam1.github.io/DSA-Notes/Cheat-Seats/Circular-array</link>
+    <guid>https://namantam1.github.io/DSA-Notes/Cheat-Seats/Circular-array</guid>
+    <description><![CDATA[ To find the min diff in a circular array diff = min(n - |a - b|, |a - b|) Note The array should be sorted. ]]></description>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
   </item><item>
-    <title>Drawing 2025-09-21 19.46.46.excalidraw</title>
-    <link>https://namantam1.github.io/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</link>
-    <guid>https://namantam1.github.io/Excalidraw/Drawing-2025-09-21-19.46.46.excalidraw</guid>
-    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
+    <title>BitSet</title>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/BitSet</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/BitSet</guid>
+    <description><![CDATA[ #include &lt;iostream&gt; #include &lt;bitset&gt; #include &lt;string&gt; int main() { // Create a bitset of size 8 std::bitset&lt;8&gt; b1; // All bits initialized to 0 (00000000) std::cout &lt;&lt; &quot;b1: &quot; &lt;&lt; b1 &lt;&lt; std::endl; // Initialize with an integer value std::bitset&lt;... ]]></description>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
   </item><item>
-    <title>Drawing 2025-09-20 03.24.13.excalidraw</title>
-    <link>https://namantam1.github.io/Excalidraw/Drawing-2025-09-20-03.24.13.excalidraw</link>
-    <guid>https://namantam1.github.io/Excalidraw/Drawing-2025-09-20-03.24.13.excalidraw</guid>
-    <description><![CDATA[ ⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
+    <title>Linked List</title>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Linked-List</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Linked-List</guid>
+    <description><![CDATA[ Custom Implementation struct List{ int val; List *nxt; List *pre; int size; }; Stl implementation #include &lt;algorithm&gt; #include &lt;iostream&gt; #include &lt;list&gt; int main() { // Create a list containing integers std::list&lt;int&gt; l = {7, 5, 16, 8}; // Add an integer to the front of the... ]]></description>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
   </item><item>
-    <title>DSA_Templates_Obsidian</title>
-    <link>https://namantam1.github.io/DSA_Templates_Obsidian</link>
-    <guid>https://namantam1.github.io/DSA_Templates_Obsidian</guid>
-    <description><![CDATA[ C++ DSA Templates — Interview-ready (Obsidian note) Purpose: A compact set of C++ templates for common interview/competitive programming patterns and data structures. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
+    <title>Queue - CPP</title>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Queue---CPP</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Queue---CPP</guid>
+    <description><![CDATA[ #include &lt;iostream&gt; #include &lt;queue&gt; // Required for std::queue int main() { std::queue&lt;int&gt; myQueue; // Declare a queue of integers // Add elements to the queue myQueue.push(10); myQueue.push(20); myQueue.push(30); // Access elements std::cout &lt;&lt; &quot;Front element: &quot; ... ]]></description>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
   </item><item>
-    <title>DSA Patterns &amp; Data Structures — Cheat Sheet</title>
-    <link>https://namantam1.github.io/DSA-Patterns--and--Data-Structures-%E2%80%94-Cheat-Sheet</link>
-    <guid>https://namantam1.github.io/DSA-Patterns--and--Data-Structures-%E2%80%94-Cheat-Sheet</guid>
-    <description><![CDATA[ Patterns 1) Two Pointers (sorted arrays / pair/triplet sums) When: sorted array / need pair/triplet with condition (sum, difference, etc.). ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
+    <title>Segment Tree</title>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Segment-Tree</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Segment-Tree</guid>
+    <description><![CDATA[ Segment Tree — Cheatsheet (C++) Quick facts Purpose: fast range queries and updates over an array (sum/min/max/count, etc.). ]]></description>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
   </item><item>
-    <title>Recursive To Iterative</title>
-    <link>https://namantam1.github.io/DSA-Notes/Recursive-To-Iterative</link>
-    <guid>https://namantam1.github.io/DSA-Notes/Recursive-To-Iterative</guid>
-    <description><![CDATA[ To think from a recursive traversal to an iterative one, you must understand that the recursion&#039;s implicit call stack is managed by the system, whereas an iterative approach requires an explicit data structure, typically a stack, to mimic this behavior. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
-  </item><item>
-    <title>Pro tips</title>
-    <link>https://namantam1.github.io/DSA-Notes/Pro-tips</link>
-    <guid>https://namantam1.github.io/DSA-Notes/Pro-tips</guid>
-    <description><![CDATA[  Check if we can use buck sort to optimize our solution and get constant time complexity. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
-  </item><item>
-    <title>Trie</title>
-    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Trie</link>
-    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Trie</guid>
-    <description><![CDATA[ Simplest struct Trie { struct Node { array&lt;int,26&gt; nxt; bool end=false; Node(){ nxt.fill(-1); } }; vector&lt;Node&gt; t; Trie(){ t.emplace_back(); } void insert(const string&amp; s){ int v=0; for(char ch: s){ int c = ch-&#039;a&#039;; if(t[v].nxt[c]==-1){ t[v].nxt[c]=t.size(); t.emplace_back()... ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
+    <title>Stack - CPP</title>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Stack---CPP</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Stack---CPP</guid>
+    <description><![CDATA[ #include &lt;iostream&gt; #include &lt;stack&gt; // Include the stack header int main() { std::stack&lt;int&gt; numbers; // Create a stack of integers numbers.push(10); // Add 10 to the stack numbers.push(20); // Add 20 to the stack numbers.push(30); // Add 30 to the stack std::cout &lt;&lt; &quot;T... ]]></description>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
   </item><item>
     <title>Tree</title>
     <link>https://namantam1.github.io/DSA-Notes/DataStructures/Tree</link>
     <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Tree</guid>
     <description><![CDATA[ Traversals 1. ]]></description>
-    <pubDate>Fri, 03 Oct 2025 00:04:35 GMT</pubDate>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
+  </item><item>
+    <title>Trie</title>
+    <link>https://namantam1.github.io/DSA-Notes/DataStructures/Trie</link>
+    <guid>https://namantam1.github.io/DSA-Notes/DataStructures/Trie</guid>
+    <description><![CDATA[ Simplest struct Trie { struct Node { array&lt;int,26&gt; nxt; bool end=false; Node(){ nxt.fill(-1); } }; vector&lt;Node&gt; t; Trie(){ t.emplace_back(); } void insert(const string&amp; s){ int v=0; for(char ch: s){ int c = ch-&#039;a&#039;; if(t[v].nxt[c]==-1){ t[v].nxt[c]=t.size(); t.emplace_back()... ]]></description>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
+  </item><item>
+    <title>Pro tips</title>
+    <link>https://namantam1.github.io/DSA-Notes/Pro-tips</link>
+    <guid>https://namantam1.github.io/DSA-Notes/Pro-tips</guid>
+    <description><![CDATA[  Check if we can use buck sort to optimize our solution and get constant time complexity. ]]></description>
+    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
