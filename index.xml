@@ -6,6 +6,12 @@
       <description>Last 10 notes on Naman&#039;s Garden</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Untitled</title>
+    <link>https://namantam1.github.io/untitled</link>
+    <guid>https://namantam1.github.io/untitled</guid>
+    <description><![CDATA[ rotate resuffle. ]]></description>
+    <pubDate>Tue, 28 Apr 2026 09:00:33 GMT</pubDate>
+  </item><item>
     <title>CPP cheatsheet</title>
     <link>https://namantam1.github.io/dsa-notes/cheat-seats/cpp-cheatsheet</link>
     <guid>https://namantam1.github.io/dsa-notes/cheat-seats/cpp-cheatsheet</guid>
@@ -58,12 +64,6 @@
     <link>https://namantam1.github.io/dsa-notes/datastructures/trie</link>
     <guid>https://namantam1.github.io/dsa-notes/datastructures/trie</guid>
     <description><![CDATA[ Simplest struct Trie { struct Node { array&lt;int,26&gt; nxt; bool end=false; Node(){ nxt.fill(-1); } }; vector&lt;Node&gt; t; Trie(){ t.emplace_back(); } void insert(const string&amp; s){ int v=0; for(char ch: s){ int c = ch-&#039;a&#039;; if(t[v].nxt[c]==-1){ t[v].nxt[c]=t.size(); t.emplace_back()... ]]></description>
-    <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
-  </item><item>
-    <title>Pro tips</title>
-    <link>https://namantam1.github.io/dsa-notes/pro-tips</link>
-    <guid>https://namantam1.github.io/dsa-notes/pro-tips</guid>
-    <description><![CDATA[  Check if we can use buck sort to optimize our solution and get constant time complexity. ]]></description>
     <pubDate>Fri, 03 Oct 2025 05:45:00 GMT</pubDate>
   </item>
     </channel>
